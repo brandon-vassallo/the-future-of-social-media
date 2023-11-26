@@ -1,0 +1,178 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x:hidden;
+  overflow-y:auto;
+  background-image: url("jakob-owens-WUmb_eBrpjs-unsplash.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+background-size: 300%;
+}
+
+p {
+font-family: "Montserrat", serif;
+font-weight: 500;
+
+}
+
+a {
+font-family: "Montserrat", serif;
+font-weight: 100;
+
+}
+
+#shape{
+  shape-outside: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
+  width: 750px;
+  height: 600px;
+  float: left;
+  position: relative;
+  right:200px;
+}
+
+.headertext {
+  font-size: 150px;
+  font-style: bold;
+  font-family: sans-serif;
+}
+
+#headline{
+  width: 600px;
+  position: relative;
+  left: 100px;
+  bottom: 510px;
+  z-index: 2;
+  color: white;
+}
+
+.navigation {
+  font-size: 45px;
+  font-family: sans-serif;
+  font-weight: 700;
+  z-index: 20;
+}
+#headline2{
+  width: 600px;
+  left: 105px;
+  bottom: 1570px;
+  color: black;
+  z-index: 1;
+}
+
+#mainwrapper {
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+    overflow-y: auto;
+    left:0px;
+    top:0px;
+    z-index:0;
+}
+
+#navigationborder {
+  height: 350px;
+  width: 630px;
+  border-left: 5px solid rgb(230,230,230);
+  border-top: 5px solid rgb(230,230,230);
+  border-radius: 25px;
+  position: relative;
+  left: 720px;
+  bottom: 1100px;
+  z-index: 0;
+}
+
+#textbox {
+  background-color: rgba(230,230,230,.9);
+  float: right;
+  width: 600px;
+  height: 60%;
+  position: relative;
+  top:30px;
+  right: 100px;
+  border-radius:40px;
+  color: rgba(0,0,0);
+  font-family: sans-serif;
+  padding: 15px;
+  font-size: 22px;
+  text-align: center;
+}
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.fade-in-image {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+.bounce {
+  animation: bounce ease 2s;
+}
+
+.bounce2 {
+  animation: bounce2 ease 2s;
+}
+
+@keyframes bounce {
+    0%  { transform: translateY(100px); }
+    100% { transform: translateY(bottom:200px); }
+  }
+
+@keyframes bounce2 {
+      0%  { transform: translateX(100px); }
+      100% { transform: translateX(left:200px); }
+    }
+
+a#tab-1:hover {
+    color:rgb(100, 100, 255);
+}
+a#tab-2:hover {
+    color:rgb(100, 225, 100);
+}
+a#tab-3:hover {
+    color:rgb(255, 80, 10);
+
+@keyframes bounce {
+    0%  { transform: translateY(100px); }
+    100% { transform: translateY(bottom:200px); }
+}
